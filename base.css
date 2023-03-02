@@ -1,3 +1,11 @@
 body{
     background-color: #F5F3E8;
 }
+
+h1{
+    font-family: Typographica;
+    font-size: 80px;
+    color: #0B2133;
+    text-align-last: center;
+    margin-top: 10px;
+}
