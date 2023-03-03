@@ -1,10 +1,11 @@
 body{
     background-color: white;
-    font-family: "Guayaba";
+    font-family: "Segoe UI Variable Small";
+    color: #0B2133;
 }
 
 @font-face { font-family: Mouser; src: url('Mouser-RpeZo.ttf'); }
-@font-face { font-family: Guayaba; src: url('GuayabaSansPersonalUse-AdLp.ttf'); }
+
 
 h1{
     font-family: "Mouser";
