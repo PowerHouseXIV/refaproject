@@ -14,7 +14,7 @@
 }
 
 #navbar-list:hover{
-    length: 83%
+    height: 83%;
 }
 
 @font-face { font-family: Guayaba; src: url('GuayabaSansPersonalUse-AdLp.ttf'); }
