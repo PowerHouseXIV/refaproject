@@ -3,27 +3,49 @@
   <head>
     <link rel = "stylesheet" href = "base.css">
     <link rel = "stylesheet" href = "navbar.css">
-    <link rel="icon" href="logo3.png" type="image/icon type">
+    <link rel="icon" href="Dvelopers GC.ico" type="image/icon type">
     <title>Homepage</title>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div id="topIdentity">
-      <img src = "logo3.png" height="80px" style="float: left; padding: 0%; margin: 0%;"/>
-      <h1>/Aseyori/</h1>
-    </div>
-    <div class="navbar">
-      <ul id = "navbar-list">
-        <li class = "navbar-item" class = "current">Home</li>
-        <li class = "navbar-item" class = "current">Schools</li>
-        <li class = "navbar-item" class = "current">Essays</li>
-        <li class = "navbar-item" class = "current">Projects</li>
-        <li class = "navbar-item" class = "current">My Schools</li>
-        <li class = "navbar-item" class = "current">Ask for help</li>
-        <li class = "navbar-item" class = "current">Report an Issue</li>
-      </ul>
-    </div>
-    <div class="credits">
-      <img src="Dvelopers GC.png" height="50px" style="float: right; padding: 0%; margin: 0%;" />
-    </div>
-  </body>
+    <style>
+      .navbar-inverse{
+    background-color: #0B2133 !important;
+      border:none;
+      }
+    </style>
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-collapse navbar-collapse">
+      <div class="container-fluid">
+        <div class="navabar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#thisNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+      <img class="navbar-brand" src = "science-fiction-icon-png-favpng-NV8MDsWPXVSyVHtfXubSdT6KQ_t-removebg-preview.png"
+      style="height: 80px;"/>
+        </div>
+        <div class="collapse navbar-collapse" id="thisNavbar">
+        <ul class= " nav navbar-nav" style="-webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;box-sizing:border-box;padding: 10px;">
+          <li><a href="#" class="btn btn-link" role="button">HOME</a></li>
+          <li><a href= "#" class="btn btn-link" role="button">SCHOOLS</a></li>
+          <li><a href="#" class="btn btn-link" role="button">ESSAYS</a></li>
+          <li><a href="#" class="btn btn-link" role="button">PROJECTS</a></li>
+          <li><a href="#" class="btn btn-link" role="button">MY SCHOOLS</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right" style="padding: 25px;">
+          <li>
+            <span class="glyphicon glyphicon-search"></span> Search
+        </li>
+        </ul>
+       </div>
+    </div>   
+  </nav>
+</body>
 </html>
