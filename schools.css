@@ -6,7 +6,7 @@ body    {
 
 /*Header Section*/
 header    {
-    background-color: rgb(9, 18, 92);
+    background-color: #0B2133;
     margin: 0px;
     width: 100%;
     font-weight: bold;
@@ -38,7 +38,7 @@ header img  {
 #page   {
     display: inline-flex;
     width: 100%;
-    padding-left: 0px;
+    padding: 0px;
     margin-top: 110px;
 }
 
@@ -101,7 +101,7 @@ nav .navigations a:hover    {
 
 /*School search search-bar and schools-list*/
 .select-schools     {
-    padding: 30px 50px 30px 50px;
+    padding: 30px 0px 30px 0px;
     margin-left: 0px;
     width: 90%;
     text-align: center;
@@ -111,7 +111,7 @@ nav .navigations a:hover    {
 
 .select-schools h1      {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(9, 18, 92);
+    color: #0B2133;
     text-align: center;
 }
 
@@ -125,7 +125,7 @@ nav .navigations a:hover    {
 }
 
 .search-line   {
-    border: 1px solid rgb(9, 18, 92);
+    border: 1px solid #0B2133;
     width: 630px;
     border-radius: 25px;
     margin-left: 200px;
@@ -133,22 +133,23 @@ nav .navigations a:hover    {
 }
 
 .search-line:hover     {
-    border: 1px solid rgb(9, 18, 92);
+    border: 1px solid #0B2133;
     box-shadow: black 0 0 5px;
 }
 
 .schools {
     display: grid;
     grid-template-columns: auto auto auto;
-    width: 994px;
-    padding-left: 0px;
-    padding-right: 0px;
+    width: 1144px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 10px;
     box-sizing: border-box;
 }
 
 .school-image     {
-    width: 296px;
+    width: 346px;
     height: 150px;
     padding: 0px;
     border-radius: 25px 25px 0px 0px;
@@ -156,8 +157,8 @@ nav .navigations a:hover    {
 
 .school-info  {
     border: 2px solid #0B2133;
-    height: 500px;
-    width: 300px;
+    height: 750px;
+    width: 350px;
     border-radius: 25px;
     text-align: left;
     margin: 10px 10px 10px 10px;
@@ -172,12 +173,17 @@ nav .navigations a:hover    {
     text-align: center;
 }
 
+.school-info h5{
+    font-family: 'Corbel';
+}
+
 .school-info a   {
     color: black;
-    font-size: 11pt;
+    font-size: 20pt;
     text-decoration: none;
     text-align: center;
     font-weight: bold;
+    font-family: 'Perpetua';
 }
 
 .school-info a:hover     {
@@ -202,7 +208,8 @@ nav .navigations a:hover    {
     border: 1px solid black;
     border-radius: 10px;
     color: white;
-    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Tahoma';
 }
 
 .learn  {
@@ -220,7 +227,7 @@ nav .navigations a:hover    {
 .directions a   {
     border: 2px solid black;
     padding: 10px;
-    background-color: rgb(9, 18, 92);
+    background-color: #0B2133;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -235,16 +242,16 @@ nav .navigations a:hover    {
 }
 
 .directions a:hover {
-    border: 2px solid rgb(9, 18, 92);
+    border: 2px solid #0B2133;
     background-color: white;
-    color: rgb(9, 18, 92);
+    color: #0B2133;
 }
 
 /*Footer*/
 footer  {
     margin-top: 60px;
     height: 70px;
-    background-color: rgb(9, 18, 92);
+    background-color: #0B2133;
     display: grid;
     grid-template-columns: 45% 50% auto;
 }
@@ -254,6 +261,7 @@ footer #refa-logo     {
     height: 70px;
     text-align: right;
     padding: 0px;
+    border: 2px solid #0B2133;
 }
 
 footer #logo    {
