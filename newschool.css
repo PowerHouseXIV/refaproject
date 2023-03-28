@@ -1,0 +1,164 @@
+body    {
+  width: 100%;
+  margin-right: 0px;
+}
+
+.navbar {
+    background-color: #0B2133;
+}
+
+
+#search-bar     {
+    width: 95%;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 12pt;
+}
+
+.search-line   {
+    border: 1px solid #0B2133;
+    width: 100%;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+}
+
+.search-line:hover     {
+    border: 1px solid rgb(9, 18, 92);
+    box-shadow: black 0 0 5px;
+}
+
+
+.school-info  {
+    border: 2px solid #0B2133;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+  .school-info a  {
+    color: black;
+    font-size: 2vw;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Perpetua';
+    margin: 0px;
+  }
+
+  .school-info a:hover     {
+  text-decoration: underline;
+  }
+
+  .school-info h4 {
+    text-align: center;
+  }
+
+  .school-image {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .content  {
+    padding:5px ;
+    height: auto;
+  }
+
+  .content h5 {
+    padding: 10px 0px 10px 0px;
+    margin: 10px 5px 10px 5px;
+    font-size: 1vw;
+    font-weight: bold;
+  }
+
+  .dir   {
+    width: 90%;
+    height: 35px;
+    background-color: #0B2133;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 5px 5% 5px 5%;
+  }
+
+  .dir:hover {
+      cursor: pointer;
+      background-color: white;
+      color: #0B2133;
+      border: 2px solid black;
+  }
+
+
+  .pagination li a  {
+    color: #0B2133;
+  }
+
+  .pagination .active a   {
+    background-color: #0B2133;
+    border: 1px solid #0B2133;
+    margin: 0px;
+    color: white;
+  }
+
+  .pagination li a:hover   {
+    background-color: #0B2133;
+    color: white;
+    border: 1px solid #0B2133;
+  }
+
+  .pagination .active a:hover  {
+    border: 1px solid white;
+    background-color: #0B2133;
+    color: white;
+  }
+
+footer  {
+    margin-top: 60px;
+    height: 100px;
+    background-color: #0B2133;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 45% 50% auto;
+}
+
+footer #refa-logo     {
+    width: 70px;
+    height: 70px;
+    text-align: right;
+    padding: 0px;
+}
+
+footer #logo    {
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: none;
+    padding: 0px;
+}
+
+footer h5   {
+    color: white;
+    text-align:left;
+}
+
+@media screen and (max-width: 768px)  {
+  footer{
+    height:300px;
+    text-align:center;
+    grid-template-columns: 100%;
+  }
+  footer #refa-logo {
+    margin-left:40%;
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+  }
+  footer h5 {
+    text-align:center;
+  }
+}

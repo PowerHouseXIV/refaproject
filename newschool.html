@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Schools</title>
+        <link rel="icon" type="image/x-icom" href="Pictures/refa-icon.ico">
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="newschool.css">
+    </head>
+    <body>
+        <header class=""></header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" title="REFA LOGO" style="font-size: 3vw; color: white; text-decoration: none;"><img src="Pictures/refa-logo.png" style="width:4vw;" class="img-circle">REFA HOME</a> 
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myDropDown">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myDropDown">
+                    <ul  class="nav navbar-nav">
+                      <li><a href="#" target="_self" style="font-size: 12pt; color: white;">Home</a></li>
+                      <li class="active"><a href="#" target="_self" style="font-size: 12pt; background-color: white;color: #0B2133;">Schools</a></li>
+                      <li><a href="#" target="_self" style="font-size: 12pt; color: white;">Grades</a></li>
+                      <li><a href="#" target="_self" style="font-size: 12pt; color: white;">Essays</a></li>
+                      <li><a href="#" target="_self" style="font-size: 12pt; color: white;">Projects</a></li>
+                      <li><a href="#" target="_self" style="font-size: 12pt; color: white;">My schools</a></li>
+                    </ul>
+                    <div class="btn btn-default navbar-btn navbar-right" style="margin-left: 10px; margin-right: 10px;">Sign Up</div>
+                    <div class="btn btn-primary navbar-btn navbar-right" style="margin-left: 10px;">Log in</div>
+                </div>
+            </div>
+        </nav>
+        <div class="carousel slide" id="myslider" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myslider" data-slide-to="0" class="active"></li>
+              <li data-target="#myslider" data-slide-to="1"></li>
+              <li data-target="#myslider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="img-responsive" src="image1.jpg" title="Background header" alt="Background header" style="width: 100%; height: 10%; max-height: 500px;">
+                    <div class="carousel-caption" style="position: absolute; width: fit-content;text-align: center; margin-bottom: 50px; font-family: gainsboro;">
+                        <h1 style="font-size: 12vw;">
+                            WELCOME!
+                        </h1>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="image2.jpg" title="Background header" alt="Background header" style="width: 100%; height: 10%; max-height: 500px;">
+                    <div class="carousel-caption" style="position: absolute; width: fit-content;text-align: center; margin-bottom: 50px; font-family: gainsboro;">
+                        <h1 style="font-size: 5vw;">
+                            ARE YOU IN SEARCH OF SCHOOLS TO APPLY TO ABROAD?
+                        </h1>
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="img-responsive" src="image3.jpg" title="Background header" alt="Background header" style="width: 100%; height: 10%; max-height: 500px;">
+                    <div class="carousel-caption" style="position: absolute; width: fit-content;text-align: center; margin-bottom: 50px; font-family: gainsboro;">
+                        <h1 style="font-size: 5vw;">
+                            MAKE USE OF REFA COLLEGE SEARCH TOOL TODAY TO MAKE YOUR SEARCH EASIER.
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li class="active">Schools</li>
+        </ul>
+
+        <div class="container" style="text-align: center; margin-top: 50px;">
+            <h3>REFA COLLEGE SEARCH TOOL</h3>
+            <form>
+                <div class="search-line">
+                    <span class="glyphicon glyphicon-search"></span>
+                    <input type="text" id="search-bar" placeholder="Search by School name" onkeyup="search()">
+                </div>
+            </form>
+        </div>
+
+            <div class="row" style="margin:50px 50px 50px 50px;">
+                <div class="container-fluid">
+                    <div class="hidden-xs col-sm-6 col-md-4" id="schools">
+                        <nav class="school-info">
+                            <img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image">
+                            <h4><a href="https://www.aamu.edu/admissions-aid/graduate-admissions/international-students.html" title="Inernational Students Website" target="_blank">Alabama A&M University</a></h4>
+                            <div class="content">
+                                <h5>Location: Montgomery, Alabama</h5>
+                                <h5>Acceptance Rate: 98%</h5>
+                                <h5>Financial Aid Requirements:</h5>
+                                <h5>College Rank: HBCU</h5>
+                                <h5>SAT:</h5>
+                                <h5>GPA: </h5>
+                                <h5>GPA: </h5>
+                                <button class="dir" data-toggle="modal" data-target="#mymodal">Learn More</button>
+                                <button class="dir">Add to My List</button>
+                            </div> 
+                        </nav>
+                    </div> 
+                    <div class="hidden-xs col-sm-6 col-md-4" id="schools">
+                      <nav class="school-info">
+                            <img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image">
+                            <h4><a href="https://www.aamu.edu/admissions-aid/graduate-admissions/international-students.html" title="Inernational Students Website" target="_blank">Amherst College</a></h4>
+                            <div class="content">
+                                <h5>Location: Montgomery, Alabama</h5>
+                                <h5>Acceptance Rate: 98%</h5>
+                                <h5>Financial Aid Requirements:</h5>
+                                <h5>College Rank: HBCU</h5>
+                                <h5>SAT:</h5>
+                                <h5>GPA: </h5>
+                                <h5>GPA: </h5>
+                                <button class="dir" data-toggle="modal" data-target="#mymodal">Learn More</button>
+                                <button class="dir">Add to My List</button>
+                            </div> 
+                        </nav> 
+                    </div> 
+                    <div class="hidden-xs col-sm-6 col-md-4" id="schools">
+                        <nav class="school-info">
+                            <img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image">
+                            <h4><a href="https://www.aamu.edu/admissions-aid/graduate-admissions/international-students.html" title="Inernational Students Website" target="_blank">American University</a></h4>
+                            <div class="content">
+                                <h5>Location: Montgomery, Alabama</h5>
+                                <h5>Acceptance Rate: 98%</h5>
+                                <h5>Financial Aid Requirements:</h5>
+                                <h5>College Rank: HBCU</h5>
+                                <h5>SAT:</h5>
+                                <h5>GPA: </h5>
+                                <h5>GPA: </h5>
+                                <button class="dir" data-toggle="modal" data-target="#mymodal">Learn More</button>
+                                <button class="dir">Add to My List</button>
+                            </div> 
+                        </nav> 
+                    </div> 
+                    <div class="hidden-xs col-sm-6 col-md-4" id="schools">
+                        <nav class="school-info">
+                            <img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image">
+                            <h4><a href="https://www.aamu.edu/admissions-aid/graduate-admissions/international-students.html" title="Inernational Students Website" target="_blank">Baylor University</a></h4>
+                            <div class="content">
+                                <h5>Location: Montgomery, Alabama</h5>
+                                <h5>Acceptance Rate: 98%</h5>
+                                <h5>Financial Aid Requirements:</h5>
+                                <h5>College Rank: HBCU</h5>
+                                <h5>SAT:</h5>
+                                <h5>GPA: </h5>
+                                <h5>GPA: </h5>
+                                <button class="dir" data-toggle="modal" data-target="#mymodal">Learn More</button>
+                                <button class="dir">Add to My List</button>
+                            </div> 
+                        </nav>
+                    </div> 
+                    <div class="hidden-xs col-sm-6 col-md-4" id="schools">
+                        <nav class="school-info">
+                            <img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image">
+                            <h4><a href="https://www.aamu.edu/admissions-aid/graduate-admissions/international-students.html" title="Inernational Students Website" target="_blank">Alabama A&M University</a></h4>
+                            <div class="content">
+                                <h5>Location: Montgomery, Alabama</h5>
+                                <h5>Acceptance Rate: 98%</h5>
+                                <h5>Financial Aid Requirements:</h5>
+                                <h5>College Rank: HBCU</h5>
+                                <h5>SAT:</h5>
+                                <h5>GPA: </h5>
+                                <h5>GPA: </h5>
+                                <button class="dir" data-toggle="modal" data-target="#mymodal">Learn More</button>
+                                <button class="dir">Add to My List</button>
+                            </div> 
+                        </nav> 
+                    </div> 
+                    <div class="hidden-xs col-sm-6 col-md-4" id="schools">
+                        <nav class="school-info">
+                            <img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image">
+                            <h4><a href="https://www.aamu.edu/admissions-aid/graduate-admissions/international-students.html" title="Inernational Students Website" target="_blank">Alabama A&M University</a></h4>
+                            <div class="content">
+                                <h5>Location: Montgomery, Alabama</h5>
+                                <h5>Acceptance Rate: 98%</h5>
+                                <h5>Financial Aid Requirements:</h5>
+                                <h5>College Rank: HBCU</h5>
+                                <h5>SAT:</h5>
+                                <h5>GPA: </h5>
+                                <h5>GPA: </h5>
+                                <button class="dir" data-toggle="modal" data-target="#mymodal">Learn More</button>
+                                <button class="dir">Add to My List</button>
+                            </div> 
+                        </nav> 
+                    </div> 
+                    <div class="hidden-xs col-sm-6 col-md-4" id="schools">
+                        <nav class="school-info">
+                            <img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image">
+                            <h4><a href="https://www.aamu.edu/admissions-aid/graduate-admissions/international-students.html" title="Inernational Students Website" target="_blank">Alabama A&M University</a></h4>
+                            <div class="content">
+                                <h5>Location: Montgomery, Alabama</h5>
+                                <h5>Acceptance Rate: 98%</h5>
+                                <h5>Financial Aid Requirements:</h5>
+                                <h5>College Rank: HBCU</h5>
+                                <h5>SAT:</h5>
+                                <h5>GPA: </h5>
+                                <h5>GPA: </h5>
+                                <button class="dir" data-toggle="modal" data-target="#mymodal">Learn More</button>
+                                <button class="dir">Add to My List</button>
+                            </div> 
+                        </nav>
+                    </div> 
+                    <div class="hidden-xs col-sm-6 col-md-4" id="schools">
+                        <nav class="school-info">
+                            <img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image">
+                            <h4><a href="https://www.aamu.edu/admissions-aid/graduate-admissions/international-students.html" title="Inernational Students Website" target="_blank">Alabama A&M University</a></h4>
+                            <div class="content">
+                                <h5>Location: Montgomery, Alabama</h5>
+                                <h5>Acceptance Rate: 98%</h5>
+                                <h5>Financial Aid Requirements:</h5>
+                                <h5>College Rank: HBCU</h5>
+                                <h5>SAT:</h5>
+                                <h5>GPA: </h5>
+                                <h5>GPA: </h5>
+                                <button class="dir" data-toggle="modal" data-target="#mymodal">Learn More</button>
+                                <button class="dir">Add to My List</button>
+                            </div> 
+                        </nav> 
+                    </div> 
+                    <div class="hidden-xs col-sm-6 col-md-4" id="schools">
+                        <nav class="school-info">
+                            <img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image">
+                            <h4><a href="https://www.aamu.edu/admissions-aid/graduate-admissions/international-students.html" title="Inernational Students Website" target="_blank">Alabama A&M University</a></h4>
+                            <div class="content">
+                                <h5>Location: Montgomery, Alabama</h5>
+                                <h5>Acceptance Rate: 98%</h5>
+                                <h5>Financial Aid Requirements:</h5>
+                                <h5>College Rank: HBCU</h5>
+                                <h5>SAT:</h5>
+                                <h5>GPA: </h5>
+                                <h5>GPA: </h5>
+                                <button class="dir" data-toggle="modal" data-target="#mymodal">Learn More</button>
+                                <button class="dir">Add to My List</button>
+                            </div> 
+                        </nav>
+                    </div> 
+                    <div class="hidden-xs col-sm-6 col-md-4" id="schools">
+                        <nav class="school-info">
+                            <img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image">
+                            <h4><a href="https://www.aamu.edu/admissions-aid/graduate-admissions/international-students.html" title="Inernational Students Website" target="_blank">Alabama A&M University</a></h4>
+                            <div class="content">
+                                <h5>Location: Montgomery, Alabama</h5>
+                                <h5>Acceptance Rate: 98%</h5>
+                                <h5>Financial Aid Requirements:</h5>
+                                <h5>College Rank: HBCU</h5>
+                                <h5>SAT:</h5>
+                                <h5>GPA: </h5>
+                                <h5>GPA: </h5>
+                                <button class="dir" data-toggle="modal" data-target="#mymodal">Learn More</button>
+                                <button class="dir">Add to My List</button>
+                            </div> 
+                        </nav>
+                    </div> 
+                    <div class="hidden-xs col-sm-6 col-md-4" id="schools">
+                        <nav class="school-info">
+                            <img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image">
+                            <h4><a href="https://www.aamu.edu/admissions-aid/graduate-admissions/international-students.html" title="Inernational Students Website" target="_blank">Alabama A&M University</a></h4>
+                            <div class="content">
+                                <h5>Location: Montgomery, Alabama</h5>
+                                <h5>Acceptance Rate: 98%</h5>
+                                <h5>Financial Aid Requirements:</h5>
+                                <h5>College Rank: HBCU</h5>
+                                <h5>SAT:</h5>
+                                <h5>GPA: </h5>
+                                <h5>GPA: </h5>
+                                <button class="dir" data-toggle="modal" data-target="#mymodal">Learn More</button>
+                                <button class="dir">Add to My List</button>
+                            </div> 
+                        </nav>
+                    </div> 
+                    <div class="hidden-xs col-sm-6 col-md-4" id="schools">
+                        <nav class="school-info">
+                            <img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image">
+                            <h4><a href="https://www.aamu.edu/admissions-aid/graduate-admissions/international-students.html" title="Inernational Students Website" target="_blank">Alabama A&M University</a></h4>
+                            <div class="content">
+                                <h5>Location: Montgomery, Alabama</h5>
+                                <h5>Acceptance Rate: 98%</h5>
+                                <h5>Financial Aid Requirements:</h5>
+                                <h5>College Rank: HBCU</h5>
+                                <h5>SAT:</h5>
+                                <h5>GPA: </h5>
+                                <h5>GPA: </h5>
+                                <button class="dir" data-toggle="modal" data-target="#mymodal">Learn More</button>
+                                <button class="dir">Add to My List</button>
+                            </div> 
+                        </nav>
+                    </div> 
+                </div>
+            </div>
+
+            <!--For extra small screens-->
+    <div class="container">
+        <div class="panel-group visible-xs" id="accordion">
+            <div class="panel panel-default" style="border: 1px solid black; border-radius: 0px;">
+                <div class="panel-heading" style=" background-color: #0B2133; padding: 0px; height: 80px; border-radius: 0px;" >
+                    <h4 class="panel-title"><img src="Pictures/Alabama.jpeg" alt="Alabama Uniersity" class="school-image" style="height: 79px; width: 80px; border-radius: 0px;">
+                        <a data-toggle="collapse" data-parent="#accordion" style="color: white; font-size: 15pt;" href="#collapse1">
+                        Alabama A&M Unversity</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <div class="content1">
+                            <h5>Location: Montgomery, Alabama</h5>
+                            <h5>Acceptance Rate: 98%</h5>
+                            <h5>Financial Aid Requirements:</h5>
+                            <h5>College Rank: HBCU</h5>
+                            <h5>SAT:</h5>
+                            <h5>GPA: </h5>
+                            <h5>GPA: </h5>
+                            <button class="btn btn-primary" style="background-color: #0B2133; border: 0px;">Learn More</button>
+                            <button class="btn btn-primary" style="background-color: #0B2133; border: 0px;">Add to My List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default" style="border: 1px solid black; border-radius: 0px;">
+                <div class="panel-heading" style=" background-color: #0B2133; padding: 0px; height: 80px; border-radius: 0px;">
+                    <h4 class="panel-title"><img src="Pictures/American.jpeg" alt="Alabama Uniersity" class="school-image" style="height: 79px; width: 80px; border-radius: 0px;">
+                        <a data-toggle="collapse" data-parent="#accordion" style="color: white; font-size: 15pt;" href="#collapse2">
+                        American University</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <div class="content1">
+                            <h5>Location: Montgomery, Alabama</h5>
+                            <h5>Acceptance Rate: 98%</h5>
+                            <h5>Financial Aid Requirements:</h5>
+                            <h5>College Rank: HBCU</h5>
+                            <h5>SAT:</h5>
+                            <h5>GPA: </h5>
+                            <h5>GPA: </h5>
+                            <button class="btn btn-primary" style="background-color: #0B2133; border: 0px;">Learn More</button>
+                            <button class="btn btn-primary" style="background-color: #0B2133; border: 0px;">Add to My List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default" style="border: 1px solid black; border-radius: 0px;">
+                <div class="panel-heading" style=" background-color: #0B2133; padding: 0px; height: 80px; border-radius: 0px;">
+                    <h4 class="panel-title"><img src="Pictures/Baylor.jpeg" alt="Alabama Uniersity" class="school-image" style="height: 79px; width: 80px; border-radius: 0px;">
+                        <a data-toggle="collapse" data-parent="#accordion" style="color: white; font-size: 15pt;" href="#collapse3">
+                        Baylor University</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <div class="content1">
+                            <h5>Location: Montgomery, Alabama</h5>
+                            <h5>Acceptance Rate: 98%</h5>
+                            <h5>Financial Aid Requirements:</h5>
+                            <h5>College Rank: HBCU</h5>
+                            <h5>SAT:</h5>
+                            <h5>GPA: </h5>
+                            <h5>GPA: </h5>
+                            <button class="btn btn-primary" style="background-color: #0B2133; border: 0px;">Learn More</button>
+                            <button class="btn btn-primary" style="background-color: #0B2133; border: 0px;">Add to My List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default" style="border: 1px solid black; border-radius: 0px; ">
+                <div class="panel-heading" style=" background-color: #0B2133; padding: 0px; height: 80px; border-radius: 0px;">
+                    <h4 class="panel-title"><img src="Pictures/Cornell.jpeg" alt="Alabama Uniersity" class="school-image" style="height: 80px; width: 80px; border-radius: 0px;">
+                        <a data-toggle="collapse" data-parent="#accordion" style="color: white; font-size: 15pt;" href="#collapse4">
+                        Cornnel University</a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <div class="content1">
+                            <h5>Location: Montgomery, Alabama</h5>
+                            <h5>Acceptance Rate: 98%</h5>
+                            <h5>Financial Aid Requirements:</h5>
+                            <h5>College Rank: HBCU</h5>
+                            <h5>SAT:</h5>
+                            <h5>GPA: </h5>
+                            <h5>GPA: </h5>
+                            <button class="btn btn-primary" style="background-color: #0B2133; border: 0px;">Learn More</button>
+                            <button class="btn btn-primary" style="background-color: #0B2133; border: 0px;">Add to My List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--Page direction change-->
+        <div class="container" style="text-align: center;">
+            <ul class="pagination pagination-lg">
+                <li><a href="#">&laquo; Previous</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+               <li><a href="#">Next &raquo;</a></li>
+            </ul>
+        </div>
+
+        <!--Page Footer-->
+        <footer>
+            <div class="socials">
+                <a href="https//:www.instagram.com"><img id="logo" src="Pictures/instagram2.png" title="INSTAGRAM PAGE"></a>
+                <a href="https//:www.instagram.com"><img id="logo" src="Pictures/youtube.png" title="YOUTUBE PAGE"></a>
+                <a href="https//:www.instagram.com"><img id="logo" src="Pictures/facebook.png" title="FACEBOOK PAGE"></a>
+                <a href="https//:www.instagram.com"><img id="logo" src="Pictures/tiktok.png" title="TIKTOK PAGE"></a>
+            </div>
+            <h5>Contact Us| +234 808 000 5767<br>Copyright &copy; REFA</h5>
+            <img id="refa-logo" src="Pictures/refa-logo.png" title="REFA LOGO">
+        </footer>
+
+        <!--Javascript-->
+        <script src="refa.js"></script>
+    </body>
+</html>
